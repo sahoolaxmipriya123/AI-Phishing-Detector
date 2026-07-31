@@ -23,3 +23,32 @@ An AI-powered phishing URL detection system that detects suspicious links and cl
 - CSS
 
 ## 📂 Project Structure
+AI-Phishing-Detector
+│
+├── app.py
+├── train_model.py
+├── phishing.csv
+├── requirements.txt
+│
+├── model
+│   └── phishing_model.pkl
+│
+├── templates
+│   └── index.html
+│
+└── static
+    └── style.css
+
+
+
+
+
+
+
+
+
+
+
+## 🌐 Live Demo
+
+https://ai-phishing-detector-ludv.onrender.com
