@@ -38,7 +38,7 @@ def analyze_url(url):
             risk += 10
             reasons.append(f"Suspicious keyword found: {word}")
 
-    # URL length
+    # URL length check
     if len(url) > 60:
         risk += 15
         reasons.append("URL length is very long")
@@ -82,4 +82,4 @@ def home():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
